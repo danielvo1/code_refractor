@@ -24,6 +24,7 @@ In addition to making the website more accessible by adding semantic elements, I
 
 Furtheremore, I fixed the functionality with the Search Engine Optimization link. Prior, it did not navigate to the search engine optimization section. The link did not work becuase the ```<div>``` tag was missing the `id` attribute.
 
+
 ###
 
 ## Built With
