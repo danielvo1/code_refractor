@@ -1,5 +1,38 @@
-In order to fix the given website, I approached revising the website by fixing section by section. I began fixing the header first. I used semantic elements to help specify each section. For example, I removed the div tag and replaced it with a header tag to be more descriptive. Additionally, after revising the html file for the header, I went into the css file to configure the code to help reflect the changes done to the html file. Throughout this process, I would repeatedly refresh the page in my google chrome to ensure there was not any cosmetic changes. Furthermore, I fixed one of the links in the header, by adding an id tag.
-After finishing the header section, I revised the img by calling the source in the html file and not in the css file. I created a new section and used the img tag in order to do so. I wanted only styling to be within the css file, so it made more logical sense for me to have the image called in the html file. 
-Furthermore, I moved towards the text block in the middle of the page and repeated the same process. I first removed the div tag and replaced it with a section tag. Additionally, I created new ids and class for each text in order to have more concise css file. 
-For the information on the side, I removed the div tag and replaced with an aside tag. I also added different ids and classes so that I could condense the css file. 
-Finally, I also changed the last div tag into a footer tag. Doing this allowed me to remove the footer class that was associated with the div tag. 
+# Code Refractor 
+I was given the task of code refractoring Horiseon's webpage. The criteria was that it needed to include semantic HTML elements, follow a logical structure, improve on accessbility, and improve overall in structure; yet keeping the cosemetic appearance untouched.
+## Get Started
+First, I located the file in their github in order to find the SSH link. 
+
+### Installing
+
+After copying the SSH link, I first used Git to retrieve the existing code from the company. Using the company's SSH, I was able to clone the website onto my own machine. 
+
+Using this line of code:
+
+```
+git clone *ssh link*
+```
+### Improvements
+
+First, I converted many of the ```<div>``` tags into more descriptive semantic tags. Such as ```<header>```, and ```<footer>```. Additionally, I made structural changes to the hero class. I entirely removed the class because I wanted to import the image through html and not css. I did this because I strictly only wanted styling in csss. Furthermore, I condensed the styling by grouping multiple sections in the same class. 
+
+![image](./assets/images/condensed_code.png)
+
+In the screen shot above you can see there is no repeated attribute. 
+
+In addition to making the website more accessible by adding semantic elements, I also included alt attributes to the images. 
+
+Furtheremore, I fixed the functionality with the Search Engine Optimization link. Prior, it did not navigate to the search engine optimization section. The link did not work becuase the ```<div>``` tag was missing the `id` attribute.
+
+###
+
+## Built With
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+
+
+
+## Authors
+Daniel Vo 
