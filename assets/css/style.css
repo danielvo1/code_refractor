@@ -33,6 +33,7 @@ header nav {
 }
 
 header nav ul {
+    white-space: nowrap;
     list-style-type: none;
 }
 
