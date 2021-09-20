@@ -1,5 +1,6 @@
-# Code Refractor 
+# Code Refactor 
 I was given the task of code refractoring Horiseon's webpage. The criteria was that it needed to include semantic HTML elements, follow a logical structure, improve on accessbility, and improve overall in structure; yet keeping the cosemetic appearance untouched.
+
 ## Get Started
 First, I located the file in their github in order to find the SSH link. 
 
@@ -26,6 +27,9 @@ Furtheremore, I fixed the functionality with the Search Engine Optimization link
 
 
 ###
+
+## Link
+* [Horiseon Code Refactoring]( https://danielvo1.github.io/code_refractor/)
 
 ## Built With
 
